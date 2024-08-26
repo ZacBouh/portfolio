@@ -210,6 +210,7 @@ button {
 .center {
   display: flex;
   align-items: center;
+  gap: 1em;
 }
 
 .header {
@@ -263,9 +264,16 @@ main {
   margin-top: 1.2em;
 }
 
+.about__role__subtitle {
+  margin-top: 0.5em;
+  color: #90a0d9;
+  font-size: 1.2em;
+}
+
 .about__desc {
   font-size: 1.5rem;
   max-width: 70%;
+  text-align: justify;
 }
 
 .about__emoji {
@@ -279,6 +287,8 @@ main {
 
 .about .link--icon {
   margin-right: 0.8em;
+  font-size: 2em;
+  padding-top: 0.3em;
 }
 
 .about .btn--outline {
@@ -350,6 +360,7 @@ main {
 
 .contact {
   flex-direction: column;
+  margin-bottom: 5em;
 }
 
 .footer {
